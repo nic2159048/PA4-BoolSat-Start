@@ -1,0 +1,6 @@
+input: a || b
+SAT
+a: false, b: false, false
+a: false, b: true, true
+a: true, b: false, true
+a: true, b: true, true

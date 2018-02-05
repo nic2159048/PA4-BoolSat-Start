@@ -1,0 +1,7 @@
+install: true
+
+script: python grade.py PA4BoolSat PublicTestCases --outpre pa4
+
+notifications:
+  on_success: always
+  email: your.github.email@whatever.domain

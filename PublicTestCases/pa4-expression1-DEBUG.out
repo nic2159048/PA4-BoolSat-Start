@@ -1,0 +1,4 @@
+input: a && !a
+SAT
+a: false, false
+a: true, false

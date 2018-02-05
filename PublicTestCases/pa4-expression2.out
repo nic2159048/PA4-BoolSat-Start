@@ -1,0 +1,8 @@
+input: (a || b || !c) && (!a || b || c)
+SAT
+a: false, b: false, c: false
+a: false, b: true, c: false
+a: false, b: true, c: true
+a: true, b: false, c: true
+a: true, b: true, c: false
+a: true, b: true, c: true
