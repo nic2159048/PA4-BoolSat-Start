@@ -1,4 +1,4 @@
 input: a && !a
-SAT
+UNSAT
 a: false, false
 a: true, false
