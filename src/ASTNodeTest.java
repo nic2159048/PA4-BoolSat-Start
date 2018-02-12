@@ -21,6 +21,7 @@ public class ASTNodeTest {
         Assert.assertTrue(astChild.getNodeType().equals("AND"));
 
 
+
 	}
 
     @Test
